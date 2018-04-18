@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/tv_monsterName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="_"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_details_adapter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/tv_materialName_1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="_"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/tv_materialName_2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="_"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/tv_materialName_3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="_"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/tv_materialName_4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="_"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/tv_materialName_5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="_"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/tv_materialName_6"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="_"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/tv_materialName_7"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="_"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/tv_materialName_8"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="_"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/tv_materialName_9"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="_"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/tv_materialName_10"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="_"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/tv_materialName_11"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="_"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/tv_materialName_12"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="_"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/tv_materialNum_1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="1"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_materialNum_2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="1"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_materialNum_3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="1"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_materialNum_4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="1"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_materialNum_5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="1"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_materialNum_6"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="1"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_materialNum_7"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="1"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_materialNum_8"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="1"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_materialNum_9"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="1"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_materialNum_10"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="1"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_materialNum_11"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="1"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_materialNum_12"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="1"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/tv_materialPrice_1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="998"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_materialPrice_2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="998"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_materialPrice_3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="998"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_materialPrice_4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="998"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_materialPrice_5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="998"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_materialPrice_6"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="998"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_materialPrice_7"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="998"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_materialPrice_8"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="998"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_materialPrice_9"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="998"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_materialPrice_10"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="998"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_materialPrice_11"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="998"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_materialPrice_12"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="998"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/tv_special_1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="_"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_special_2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="_"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_special_3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="_"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_special_4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="_"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_special_5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="_"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_special_6"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="_"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_special_7"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="_"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_special_8"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="_"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_special_9"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="_"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_special_10"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="_"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_special_11"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="_"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_special_12"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="_"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

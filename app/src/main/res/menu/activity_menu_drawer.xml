@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <!--<item-->
+            <!--android:id="@+id/skillBeadsActivity"-->
+            <!--android:icon="@drawable/ic_menu_camera"-->
+            <!--android:title="技能珠" />-->
+        <!--<item-->
+            <!--android:id="@+id/materialPriceActivity"-->
+            <!--android:icon="@drawable/ic_menu_gallery"-->
+            <!--android:title="怪物素材价格表" />-->
+        <!--<item-->
+            <!--android:id="@+id/normalMaterialPriceActivity"-->
+            <!--android:icon="@drawable/ic_menu_slideshow"-->
+            <!--android:title="普通素材价格表" />-->
+        <item
+            android:id="@+id/assemblingActivity"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="配装列表" />
+        <item
+            android:id="@+id/huntingHornActivity"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="狩猎笛种类" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/myGuardStoneActivity"
+                android:icon="@drawable/ic_menu_share"
+                android:title="我的护石" />
+            <item
+                android:id="@+id/guardStoneActivity"
+                android:icon="@drawable/ic_menu_share"
+                android:title="护石信息" />
+            <item
+                android:id="@+id/guardStonePriceActivity"
+                android:icon="@drawable/ic_menu_share"
+                android:title="护石价格" />
+            <item
+                android:id="@+id/monsterActivity"
+                android:icon="@drawable/ic_menu_send"
+                android:title="怪物资料" />
+        </menu>
+    </item>
+
+</menu>

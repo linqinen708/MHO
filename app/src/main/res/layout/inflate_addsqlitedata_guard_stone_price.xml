@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="名称"
+        />
+    <EditText
+        android:id="@+id/et_precisionCasting"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="精铸等级"
+        />
+    <EditText
+        android:id="@+id/et_auctionPrice"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="竞拍价格"
+        />
+    <EditText
+        android:id="@+id/et_fixedPrice"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="一口价"
+        />
+    <!--<LinearLayout-->
+        <!--android:layout_width="260dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:orientation="horizontal"-->
+        <!--&gt;-->
+        <!--<EditText-->
+            <!--android:id="@+id/et_minAuctionPrice"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:hint="价格"-->
+            <!--/>-->
+        <!--<TextView-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:gravity="center"-->
+            <!--android:text="&#45;&#45;"-->
+            <!--/>-->
+        <!--<EditText-->
+            <!--android:id="@+id/et_maxAuctionPrice"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:hint="价格"-->
+            <!--/>-->
+
+
+    <!--</LinearLayout>-->
+
+
+</LinearLayout>

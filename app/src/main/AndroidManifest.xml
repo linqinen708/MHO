@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.linqinen.mho">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.SkillBeadsActivity"
+            android:label="@string/title_activity_skill_beads"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.MaterialPriceActivity"
+            android:label="@string/title_activity_material_price"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.NormalMaterialPriceActivity"
+            android:label="@string/title_activity_normal_material_price"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.AssemblingActivity"
+            android:label="@string/title_activity_assembling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.GuardStoneActivity"
+            android:label="@string/title_activity_guard_stone"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.MonstersActivity"
+            android:label="@string/title_activity_monsters"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.GuardStonePriceActivity"
+            android:label="护石价格"
+            android:theme="@style/AppTheme.NoActionBar" />
+        />
+        <activity
+            android:name=".activity.HuntingHornActivity"
+            android:label="@string/title_activity_hunting_horn"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.MyGuardStoneActivity"
+            android:label="@string/title_activity_my_guard_stone"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

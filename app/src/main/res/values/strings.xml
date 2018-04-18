@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">怪物猎人</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="adapters">
+        <item>0全部</item>
+        <item>1锋利度</item>
+        <item>2研磨师</item>
+        <item>3匠</item>
+        <item>4炮术</item>
+        <item>5攻击</item>
+        <item>6防御</item>
+        <item>7剑术</item>
+        <item>8达人</item>
+        <item>9特殊攻击</item>
+        <item>10体力</item>
+        <item>11听觉保护</item>
+        <item>12防御性能</item>
+        <item>13防御强化</item>
+        <item>14回避性能</item>
+        <item>15回避距离</item>
+        <item>16麻痹抵抗</item>
+        <item>17毒性抵抗</item>
+        <item>18集中</item>
+    </string-array>
+    <string name="title_activity_skill_beads">SkillBeadsActivity</string>
+    <string name="title_activity_material_price">MaterialPriceActivity</string>
+    <string name="title_activity_normal_material_price">NormalMaterialPriceActivity</string>
+    <string name="title_activity_assembling">AssemblingActivity</string>
+    <string name="title_activity_guard_stone">GuardStoneActivity</string>
+    <string name="title_activity_monsters">MonstersActivity</string>
+    <string name="title_activity_hunting_horn">HuntingHornActivity</string>
+    <string name="title_activity_my_guard_stone">MyGuardStoneActivity</string>
+</resources>

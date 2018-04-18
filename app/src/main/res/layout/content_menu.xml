@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.linqinen.mho.MenuActivity"
+    android:orientation="vertical"
+    tools:showIn="@layout/app_bar_menu">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+    </android.support.v4.view.ViewPager>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="?attr/colorPrimary"
+        app:tabIndicatorColor="@android:color/white"
+        app:tabSelectedTextColor="@color/green_59d1bf"
+        app:tabTextColor="@color/grey_f6f6f6"
+        app:tabGravity="fill"
+        app:tabMode="fixed"
+         />
+
+    <!--tabGravity和tabMode 详情查看 http://blog.csdn.net/zhangphil/article/details/48931483-->
+    <!--app:tabIndicatorColor="@color/white"                 // 下方滚动的下划线颜色-->
+    <!--app:tabSelectedTextColor="@color/gray"               // tab被选中后，文字的颜色-->
+    <!--app:tabTextColor="@color/white"                      // tab默认的文字颜色-->
+</LinearLayout>
