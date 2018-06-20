@@ -79,7 +79,7 @@ public class SkillBeadsActivity extends AppCompatActivity {
     }
 
     private void initFirstSpinner() {
-        Spinner spinner = (Spinner) findViewById(R.id.spinner_first_SkillBeads);
+        Spinner spinner =  findViewById(R.id.spinner_first_SkillBeads);
 
         final List<String> list = new ArrayList<>();
 //        final String[] mItems = new String[mSkillBeadsListCache.size() + 1];
