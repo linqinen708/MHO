@@ -29,6 +29,7 @@ import com.linqinen.mho.tools.PinyinUtils;
 import java.text.Collator;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Locale;
 
@@ -422,6 +423,14 @@ public class MaterialPriceActivity extends AppCompatActivity {
         /**java中的中文排序逻辑*/
         Collator coll = Collator.getInstance(Locale.CHINESE);
         Collections.sort(list, coll);
+
+
+        Collections.sort(list, new Comparator<String>() {
+            @Override
+            public int compare(String o1, String o2) {
+                return 0;
+            }
+        });
 
         list.add(0, "全部");
         Log.i(TAG, "initLeftSpinner: list:" + list.toString());
